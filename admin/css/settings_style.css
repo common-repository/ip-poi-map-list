@@ -1,0 +1,46 @@
+.settingsContainer{
+    display: flex;
+    flex-direction: row;
+}
+.settingsForm{
+    flex:5;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #0000012a;
+    background-color: #fff;
+    color: #32373c;
+    border-radius: 5px;
+    padding: 20px;
+}
+.settingsForm2{
+    margin-left: 50px;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #0000012a;
+    background-color: #fff;
+    color: #32373c;
+    border-radius: 5px;
+    padding: 20px;
+    flex:2;
+}
+.settingsRow {
+    align-items: center;
+    margin: 30px 0;
+    justify-content: flex-end;
+}
+.settingsText {
+    flex: 1;
+}
+.settingsInput {
+    flex: 5;
+}
+.settingsInnerInput{
+    width: 100%;
+}
+.settingsButton{
+    float: bottom;
+}
+@media screen and (max-width: 600px) {
+    .labelText, .formInput, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

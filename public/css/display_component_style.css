@@ -1,0 +1,242 @@
+html {
+    --main-background-color: black;
+    --main-height:500;
+}
+
+.searchInputContainer {
+    position: relative;
+}
+
+.searchInputContainer > .searchIcon {
+    position: absolute;
+    top: 55%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.spritesheet {
+    display: none;
+}
+
+.poiInput{
+    border-radius: 40px!important;
+    border: 1px solid lightgrey!important;
+    outline: none!important;
+    padding:0 10px!important;
+    width: 100%!important;
+    padding-left: 30px!important;
+}
+
+#infoWindowContent{
+    color:black;
+}
+
+.poiMainContainer{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: unset!important;
+    min-height: 400px;
+    height:var(--main-height);
+}
+
+.poiList{
+    flex: 1;
+    padding: 5px 15px;
+    overflow-y: scroll;
+    background-color: #f5f5f5;
+    color:black;
+
+}
+
+.poiListHidden{
+    flex: 0;
+    background-color: #f5f5f5;
+    color:black;
+
+}
+
+.poiListItem {
+    margin-bottom: 15px;;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    min-height: 18%;
+    border: 1px solid #00000017;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.poiListItemHidden {
+    margin-bottom: 15px;;
+    display: none;
+    flex-direction: row;
+    height: auto;
+    min-height: 18%;
+    border: 1px solid #00000017;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.poiListItem:hover {
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+    transition: box-shadow .2s;
+    transition-timing-function: ease-out;
+}
+
+.poiListItemImageContainer{
+    display: flex;
+    width: 100%;
+    flex: 2;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.poiListItemImage{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.poiListItemContent{
+    padding: 10px;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
+    color:black;
+
+}
+
+.poiListItemTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    color:black;
+    line-height: normal!important;
+}
+
+.poiListItemDescription{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    color:black;
+    line-height: normal!important;
+}
+
+.poiMap{
+    flex: 1;
+}
+
+#POI-map{
+    height: 100%
+}
+
+.mapContainer{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+}
+
+@media only screen and (max-width: 991px) {
+    #POI-list{
+        height:auto;
+    }
+
+    .poiMap{
+        width: 100%;
+        height: 400px;
+        position: relative;
+        flex: 0 1 auto;
+        align-self: stretch;
+        order: 0;
+    }
+
+    .poiList{
+        overflow-y: scroll;
+        flex: 0 1 auto;
+        align-self: stretch;
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .poiListItem {
+        margin-bottom: 15px;
+        display: block;
+        flex-direction: row;
+        height: auto;
+    }
+    .poiListItemImage{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+    }
+    .poiListItemImageContainer{
+        border-bottom-left-radius: 0px;
+    }
+}
+
+.infoWindowTitle{
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding: 7px 10px;
+    background-color: var(--main-background-color);
+}
+
+.markerSVG>path{ /*target the image with css*/
+    fill: var(--main-background-color);
+}
+
+.infoWindowBodyContent{
+    box-sizing: border-box;
+    max-height: 95px;
+    padding: 10px;
+    overflow: auto;
+    background-color: white;
+}
+
+.infoWindowRow{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.infoWindowBodyText{
+    font-weight: 400;
+    margin: 0;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.gm-style .gm-style-iw-d {
+    box-sizing: border-box;
+    overflow: hidden!important;
+}
+.gm-style .gm-style-iw-c {
+    max-width: 448px;
+    max-height: 395px;
+    min-width: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    transform: translate(-50%,-100%);
+    border-radius: 8px;
+    padding: 0px!important;
+    box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.3);
+    background-color: black;
+}

@@ -1,0 +1,44 @@
+.poiFormContainer{
+    width:auto;
+    margin-top: 15px;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #0000012a;
+    background-color: #fff;
+    color: #32373c;
+    border-radius: 5px;
+    padding: 20px;
+}
+.poiFormRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0;
+    justify-content: flex-end;
+}
+.poiLabelText {
+    flex: 1;
+}
+.poiFormInput {
+    flex: 12;
+}
+.poiInnerInput{
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .labelText, .formInput, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+.poiMap{
+    flex: 12;
+    height: 500px;
+}
+#POI-map{
+    height: 100%;
+    width: 100%;
+}
+.mapContainer{
+    height: 100%;
+    width: 100%;
+}

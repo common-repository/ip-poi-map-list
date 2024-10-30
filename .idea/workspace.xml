@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e521312-5636-4d8d-a5a4-428ca2e0eb7b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wordpress</find>
+      <find>my_plugin_loader</find>
+      <find>s</find>
+      <find>$search_term</find>
+      <find>$_GET[</find>
+      <find>$GET</find>
+      <find>$id</find>
+      <find>wp_enqueue_script</find>
+      <find>$items_array</find>
+      <find>$json_array</find>
+      <find>__</find>
+      <find>listItemArray</find>
+      <find>_GET</find>
+      <find>defined</find>
+      <find>$_POST</find>
+      <find>$_GET</find>
+      <find>POI Lis</find>
+      <find>sprintf</find>
+      <find>$_POST[</find>
+      <find>sani</find>
+      <find>$_REQUEST</find>
+      <find>$_Get</find>
+      <find>print</find>
+      <find>if</find>
+      <find>print_r</find>
+      <find>margin: 30px 0;</find>
+      <find>noti</find>
+      <find>new_edit</find>
+      <find>$settings_detail</find>
+      <find>delete</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1mnBfprTOqaKe8dKJEvuEdYWKrb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e521312-5636-4d8d-a5a4-428ca2e0eb7b" name="Default Changelist" comment="" />
+      <created>1592319517670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592319517670</updated>
+      <workItem from="1592319518962" duration="4152000" />
+      <workItem from="1592381882394" duration="36668000" />
+      <workItem from="1592563310896" duration="16365000" />
+      <workItem from="1592813752706" duration="16469000" />
+      <workItem from="1592901655862" duration="4772000" />
+      <workItem from="1592987172318" duration="4169000" />
+      <workItem from="1592993038803" duration="2427000" />
+      <workItem from="1600874221473" duration="2444000" />
+      <workItem from="1600941511122" duration="6271000" />
+      <workItem from="1601023400169" duration="15701000" />
+      <workItem from="1601281691141" duration="7914000" />
+      <workItem from="1601455777018" duration="2107000" />
+      <workItem from="1601546157854" duration="2067000" />
+      <workItem from="1601890350502" duration="1135000" />
+      <workItem from="1610119585549" duration="7000" />
+      <workItem from="1610119593214" duration="1106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1610119589659">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1610119589659" />
+  </component>
+  <component name="WordPressConfiguration" doNotAskAgain="true" />
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
